@@ -49,4 +49,5 @@ localhost:3000/students'가 성공적으로 잘 동작하는지 확인합니다.
 ### 🟢 코드 실행 결과
 ![image](https://github.com/user-attachments/assets/9b15795c-0ad7-4a0e-aeb2-17b5d126c6a5)
 
-
+### 📌 LLM을 추가 활용하여 진행한 프로젝트
+[Go/Python언어, Fiber 프레임워크 기반 REST API, LLM을 조합하여 만든 '게임 롤 닉네임 AI 제너레이터'](https://github.com/MOONisYOUNG/go-py-llm-rest-api)
