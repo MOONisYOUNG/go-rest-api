@@ -6,7 +6,7 @@
 학생 관리용으로 REST API가 필요한 상황을 가정하여 만들었습니다.
 최근 재밌게 읽은 책 중 하나인 ‘수학귀신’ 속 등장인물을 예시로 사용하여 학생 데이터를 구성했습니다.
 
-### REST와 REST API
+### 🤗 REST와 REST API
 REST(Representational State Transfer)는 인터넷에서 데이터를 주고받는 방식입니다.  
 이를 사용하면 자원을 이름으로 구분한 후, 해당 자원의 상태를 주고받을 수 있습니다.
 
@@ -26,27 +26,27 @@ POST(생성), GET(읽기), PUT(업데이트), DELETE(삭제)와 같은 HTTP 동�
 
 결론적으로 REST는 서버(가게 사장님)와 클라이언트(손님)가 약속된 규칙으로 대화하는 방식이라고 할 수 있습니다!
 
-### 코드 동작 전에 해야 하는 작업
+### 🔴 코드 동작 전에 해야 하는 작업
 1. 'rest-go-fiber' 폴더가 위치에서 'go build' 명령어를 입력합니다.
 2. 'rest-go-gin' 폴더가 위치에서 'go build' 명령어를 입력합니다.
 3. 'rest-go-mux' 폴더가 위치에서 'go build' 명령어를 입력합니다.
 
-### fiber API 코드 동작 방법 (Linux 기준 작성)
+### 🟠 fiber API 코드 동작 방법 (Linux 기준 작성)
 1. 'rest-go-fiber' 폴더 위치에서 './rest-go-fiber' 명령어를 입력하여 fiber API를 활성화시킵니다.
 2. 웹 브라우저 또는 Postman에서 'http://
 localhost:3000/students'가 성공적으로 잘 동작하는지 확인합니다.
 
-### gin API 코드 동작 방법 (Linux 기준 작성)
+### 🟠 gin API 코드 동작 방법 (Linux 기준 작성)
 1. 'rest-go-gin' 폴더 위치에서 './rest-go-gin' 명령어를 입력하여 gin API를 활성화시킵니다.
 2. 웹 브라우저 또는 Postman에서 'http://
 localhost:3000/students'가 성공적으로 잘 동작하는지 확인합니다.
 
-### mux API 코드 동작 방법 (Linux 기준 작성)
+### 🟠 mux API 코드 동작 방법 (Linux 기준 작성)
 1. 'rest-go-mux' 폴더 위치에서 './rest-go-mux' 명령어를 입력하여 mux API를 활성화시킵니다.
 2. 웹 브라우저 또는 Postman에서 'http://
 localhost:3000/students'가 성공적으로 잘 동작하는지 확인합니다.
 
-### 코드 실행 결과
+### 🟢 코드 실행 결과
 ![image](https://github.com/user-attachments/assets/9b15795c-0ad7-4a0e-aeb2-17b5d126c6a5)
 
 
